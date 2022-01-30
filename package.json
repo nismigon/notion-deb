@@ -1,0 +1,32 @@
+{
+  "name": "notion-unofficial",
+  "version": "1.0.0",
+  "description": "Deb package for Notion",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "buildDeb" : "electron-builder --linux deb"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nismigon/notion-deb.git"
+  },
+  "keywords": [
+    "Notion",
+    "Deb",
+    "Electron"
+  ],
+  "author": {
+    "name": "Nismigon",
+    "email": "nismigon@protonmail.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nismigon/notion-deb/issues"
+  },
+  "homepage": "https://github.com/nismigon/notion-deb#readme",
+  "devDependencies": {
+    "electron": "^16.0.8",
+    "electron-builder": "^22.14.5"
+  }
+}
